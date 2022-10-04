@@ -1,0 +1,192 @@
+@charset "ISO-8859-1";
+.black{
+	border: 1px solid black;
+}
+.container{
+	border: 1px solid #dadce0;
+	border-radius:8px;
+	height: 500px;
+	width: 600px;
+	margin: 50px auto 20px auto;
+	display: flex;
+	padding: 48px 40px 38px;
+}
+.box-left{
+	height: 500px;
+	width: 60%;
+}
+.box-right{
+	height: 500px;
+	width: 40%;
+	text-align:center; 
+}
+#protected-img{
+	height:240px;
+	width:240px;
+}
+#logo-img{
+	height:24px;
+	width:75px;
+}
+h1{
+	font-size: 24px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+.same-row{
+	display: flex;
+	justify-content: space-between;
+}
+input{
+	border: 1px solid #dadce0;
+	font-size:14px;
+	margin:2px;
+	width: 155px;
+	border-radius: 4px;
+	padding: 6px 8px; 
+	
+}
+input, .textarea{
+	font-family: roboto,"Noto Sans Myanmar UI",arial,sans-serif;
+	color:#202124;
+}
+.textarea{
+	font-size:12px;
+}
+.intextarea{
+	margin: 2px 0px 0px 10px;
+}
+.decor{
+	margin-top:25px;
+}
+.text{
+	font-size: 16px;
+	font-weight: 300;
+	margin:0px;
+}
+#email{
+	width: 95%;
+}
+#lname, #confirm{
+	margin-right:0px;
+}
+#fname, #email,#password{
+	margin-left:0px;
+}
+.check{
+    width: 18px;
+    height: 18px;
+    margin-right: 18px;
+    cursor: pointer;
+}
+.checkbox-div{
+	display: flex;
+	align-items: center;
+	height: 54px;
+}
+label{
+	cursor: pointer;
+}
+.btn-div{
+	display:flex;
+	align-items: center;	
+	justify-content: space-between;
+	margin-top: 50px;
+}
+.btn-left{
+		color:#1a73e8;
+		font-weight: 500;
+		border:none;
+		border-radius: 4px;
+		height: 35px;
+		font-family: "Google Sans",Roboto,Arial,sans-serif;
+		font-size: 15px;
+		cursor: pointer;
+		background: white;
+}
+.btn-right{
+	font-weight: 500;
+	color:white;
+	background:#1a73e8;
+	border:none;
+	border-radius: 4px;
+	height: 35px;
+    width: 80px;
+	font-family: "Google Sans",Roboto,Arial,sans-serif;
+	font-size: 15px;
+	cursor: pointer;
+}
+.btn-left:hover{
+	color: #044dab;
+	background: #d6e5f5;
+}
+.btn-right:hover{
+	color: white;
+	background: #044dab;
+	box-shadow: 0px 0.5px 2px black;
+}
+.footer{
+	display:flex;
+	align-items: start;	
+	justify-content: space-between;
+	margin:0px auto 20px;
+	width: 682px;
+}
+.none-margin{
+	margin: 0px;
+}
+.contact{
+	display:flex;
+	align-items: start;	
+	justify-content: space-between;
+	width: 25%;
+	font-family: roboto,"Noto Sans Myanmar UI",arial,sans-serif;
+	font-size: 12px;
+	
+}
+a{
+	color: #757575;
+	 text-decoration: none;
+}
+.lang-footer{
+	font-family: roboto,"Noto Sans Myanmar UI",arial,sans-serif;
+	font-size: 12px;
+	width:75%;
+}
+.continue{
+	font-family: roboto,"Noto Sans Myanmar UI",arial,sans-serif;
+	margin-bottom: 0px; 
+	font-weight: 400; 
+	letter-spacing: 0.1px;
+	color:#202124;
+}
+input[type=text]:focus{
+  outline: none;
+  border: 2px solid #1a73e8;
+  
+}
+input[type=email]:focus {
+  outline: none;
+  border: 2px solid #1a73e8;
+  
+}
+input[type=password]:focus {
+  outline: none;
+  border: 2px solsid #1a73e8;
+}
+.inputBox{
+	position:absolute;
+	background: transparent;
+}
+.label-div{
+	margin: 9px;
+	color:#878d9a;
+	transition:0.2s;
+}
+.inputBox:focus + .label-div{
+	transform: translateY(-15px);
+	background: white;
+	color:#1a73e8;
+	font-size: 11px;
+	font-family: "Google Sans",Roboto,Arial,sans-serif;
+}
